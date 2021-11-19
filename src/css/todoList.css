@@ -1,0 +1,60 @@
+.to-do-list-container{
+  display: flex;
+  flex-direction: column;
+  background-color: lightyellow;
+  width: 60%;
+  border-radius: 1em;
+  margin-top: 2em;
+  height: 100%;
+}
+
+.to-do-list-header{
+
+    text-align: center;
+    width: 100%;
+    background-color: rgb(126, 110, 214);
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 1em;
+    height: 2em;
+
+}
+
+.to-do-list-input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.to-do-list-input .input-widet {
+    outline: none;
+
+}
+
+.to-do-list-input .btn{
+    height: 50%;
+    margin-top: 1.5em;
+}
+
+.to-do-list-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 70%;
+}
+
+.task-list{
+
+width: 50%;
+display: flex;
+justify-content: flex-end;
+margin-bottom: 1em;
+flex-direction: row-reverse;
+
+}
+
+.task-list span{
+    margin-top:0.5em;
+    margin-left:0.5em
+}

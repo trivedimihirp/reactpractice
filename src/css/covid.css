@@ -1,0 +1,80 @@
+
+#root{
+    background-color: tomato;
+    height: 100vh;
+}
+.clock{
+    text-transform: uppercase;
+    /* font-family: 'Orbitron', sans-serif; */
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+
+}
+.input-widget{
+    display: block;
+    margin: 2em;
+    width: 35em;
+    height: 2.7em;
+    border-radius: 0.40em;
+}
+
+[type~=text] {
+    background-color: lightyellow;
+
+}
+
+.welcome-msg{
+    text-align: center;
+    font: 1.5em cursive;
+    text-transform: capitalize;
+    
+}
+
+.login-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 70%;
+
+}
+
+.card{
+
+    background-color: cornflowerblue;
+    box-shadow: black;
+    width: 20em;
+    height: 10em;
+    margin: 1em;
+    box-sizing: border-box;
+    padding: 2em;
+    text-align: center;
+    font-family:cursive
+}
+
+.header{
+
+    background-color: cadetblue;
+    text-transform: capitalize;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.cards {
+    background-color:chocolate;
+    width: 90em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 2em;
+}
